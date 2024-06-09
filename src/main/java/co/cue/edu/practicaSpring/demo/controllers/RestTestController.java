@@ -10,7 +10,7 @@ import java.util.List;
 public class RestTestController {
     @RequestMapping(value = "/test")
     public String test(){
-        return "Hola desde test";
+        return "Hola, q tal";
     }
     @RequestMapping(value = "/test-lista")
     public List<String> testLista(){
